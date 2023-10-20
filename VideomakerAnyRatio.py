@@ -390,3 +390,4 @@ print("Enfin vous devez mettre les fichiers map_XX.dat dans le dossier data du d
 sleep(15)
 print("Une fois cela fait pouvez fermer la fenêtre.")
 sleep(30)
+#/tellraw @a [{"text":"Clic ici quand tu a fini de placer les item frames dans l'ordre","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function fmm:tree/1"}},{"text":". Puis ici quand tu a terminé.","clickEvent":{"action":"run_command","value":"/playsound music_disc.wait master @p ~ ~ ~"}}]
